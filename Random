@@ -1,2 +1,7 @@
 # Программа для рандомных чисел
-imoprt random
+from random import *
+
+rand_6 = random.randint(1,6)
+rand_10 = random.randint(1,10)
+rand_100 = random.randint(1,100)
+
